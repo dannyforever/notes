@@ -120,27 +120,27 @@ $$
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-```美人鱼
-时序图
+` ` `美人鱼
+时序图产品
 爱丽丝- >>鲍勃：您好鲍勃，你怎么样？
-Bob->> John：约翰你好吗？
-Bob--x Alice：很好，谢谢！
-Bob-x John：非常感谢！
-请注意John的权利：Bob认为很长很长的时间，太长了，以至于文本<br/>不能连续显示。鲍勃->爱丽丝：向约翰请教...爱丽丝-> 约翰：对...约翰，你好吗？```
+鲍勃- >>约翰：约翰你好吗？
+鲍勃- X爱丽丝：很好，谢谢
+鲍勃-X约翰： ！感谢非常
+请注意约翰的权利：鲍勃认为很长很长的时间，太长了，以至于文本<BR/>不能连续显示鲍勃- >爱丽丝：向约翰请教......爱丽丝- >约翰：对...约翰，你好吗？` ` `这将产生一个流程图：` ` `人鱼图表LR A [广场矩形] -链接文本- > B（（圆））A - > C（圆矩形）乙- > d {菱形} Ç - > d ` ` `
 
 
 
 
 
-这将产生一个流程图：
 
-```人鱼
-图表LR 
-A [广场矩形] -链接文本- > B（（圆））
-A - > C（圆矩形）
-乙- > d {菱形} 
-Ç - > d ```
+
+
+
+
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDM0OTI5Ml19
+eyJoaXN0b3J5IjpbMTkyMTczNDg1OCwxOTY0MzQ5MjkyXX0=
 -->
